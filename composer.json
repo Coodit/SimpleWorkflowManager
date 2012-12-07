@@ -1,0 +1,31 @@
+{
+    "name": "coo/simple-workflow",
+    "type": "lib",
+    "description": "A simple workflow to manage model steps easily.",
+    "keywords": ["workflow", "step", "collection", "manager", "simple"],
+    "homepage": "https://github.com/Coodit/SimpleWorkflow",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florent Mondoloni"
+        },
+        {
+            "name": "Cédric Dugat",
+            "email": "cedric@dugat.me"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/Coodit/SimpleWorkflow/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Coo": ["src/"]
+        }
+    }
+}
