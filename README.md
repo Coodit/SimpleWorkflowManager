@@ -148,3 +148,19 @@ if ($workflowManager->executeNext()) {
    // Fail.
 }
 ```
+Here is an example to use step collection.
+
+```shell
+<ul>
+    <?php foreach ($workflowManager->getStepCollection() as $step): ?>
+        <li class="<?php echo $step->isCurrent() ? 'current': '' ?>">
+
+            <?php if ($step->hasProperty('icon')): ?>
+                <span class="icon <?php echo $step->getProperty('icon') ?>"></span>
+            <?php endif; ?>
+
+            <?php echo $step ?>
+        </li>
+    <?php endforeach ?>
+</ul>
+```
