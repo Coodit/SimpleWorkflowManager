@@ -56,11 +56,22 @@ class Step
      */
     public function getProperty($key)
     {
-        if (!array_key_exists($key, $this->properties)) {
+        if (!$this->hasProperty($key)) {
             throw new \InvalidArgumentException(sprintf("Property %s does not exist", $key));
         }
 
         return $this->properties[$key];
+    }
+
+    /**
+     * hasProperty
+     *
+     * @param string $key
+     * @return boolean
+     */
+    public function hasProperty($key)
+    {
+        return (bool) array_key_exists($key, $this->properties);
     }
 
     /**
