@@ -150,8 +150,7 @@ if ($workflowManager->executeNext()) {
 ```
 Here is an example to use step collection.
 
-```php
-<?php
+```shell
 <ul>
     <?php foreach ($workflowManager->getStepCollection() as $step): ?>
         <li class="<?php echo $step->isCurrent() ? 'current': '' ?>">
