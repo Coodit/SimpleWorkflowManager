@@ -10,7 +10,7 @@ PHP library for easy workflow management.
 
 ### Add to your project Composer packages
 
-Just add `coo/simple-workflow` package to the requirements of your Composer JSON configuration file,
+Just add `coo/simple-workflow-manager` package to the requirements of your Composer JSON configuration file,
 and run `php composer.phar install` to install it.
 
 ### Install from GitHub
