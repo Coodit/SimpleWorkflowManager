@@ -1,9 +1,9 @@
 {
-    "name": "coo/simple-workflow",
+    "name": "coo/simple-workflow-manager",
     "type": "lib",
     "description": "A simple workflow to manage model steps easily.",
     "keywords": ["workflow", "step", "collection", "manager", "simple"],
-    "homepage": "https://github.com/Coodit/SimpleWorkflow",
+    "homepage": "https://github.com/Coodit/SimpleWorkflowManager",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "name": "Community contributors",
-            "homepage": "https://github.com/Coodit/SimpleWorkflow/graphs/contributors"
+            "homepage": "https://github.com/Coodit/SimpleWorkflowManager/graphs/contributors"
         }
     ],
     "require": {
