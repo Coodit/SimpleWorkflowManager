@@ -1,4 +1,4 @@
-# SimpleWorkflow
+# SimpleWorkflowManager
 
 PHP library for easy workflow management.
 
